@@ -1,3 +1,15 @@
 # Pretrained EfficientDet Model for Character Head Detection
 
-This repository contains pretrained EfficientDet model which detects character heads in illustrations. Models are trained using [zylo117's implementation](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and can be tested using the implementation.
+This repository contains pretrained EfficientDet model which detects character heads in illustrations. Models are trained using [zylo117's EfficientDet implementation](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and can be tested using the implementation.
+
+## Model Performance
+
+Models are trained on a dataset with manual annotations by myself.
+
+\#Train Images = 3184
+
+\#Val Images = 197
+
+| coefficient | Download URL | mAP (IoU:0.5-0.95) | recall (IoU:0.5-0.95) |
+| --- | --- | --- | --- |
+| D0 | [character-face-efficientdet-c0.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c0.pth) | 0.713 |  0.781 |
