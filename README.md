@@ -10,6 +10,6 @@ Models are trained on a dataset with manual annotations by myself.
 
 \#Val Images = 197
 
-| coefficient | Download URL | mAP (IoU:0.5-0.95) | recall (IoU:0.5-0.95) |
-| --- | --- | --- | --- |
-| D0 | [character-face-efficientdet-c0.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c0.pth) | 0.713 |  0.781 |
+| coefficient | Download URL | mAP (IoU:0.5-0.95) | recall (IoU:0.5-0.95) | Note |
+| --- | --- | --- | --- | --- |
+| D0 | [character-face-efficientdet-c0.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c0.pth) | 0.713 |  0.781 | Need PyTorch>=1.5.0 |
