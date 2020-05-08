@@ -12,4 +12,5 @@ Models are trained on a dataset with manual annotations by myself.
 
 | coefficient | Download URL | mAP (IoU:0.5-0.95) | recall (IoU:0.5-0.95) | Note |
 | --- | --- | --- | --- | --- |
-| D0 | [character-face-efficientdet-c0.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c0.pth) | 0.713 |  0.781 | Need PyTorch>=1.5.0 |
+| D0 | [character-face-efficientdet-c0.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c0.pth) | 0.713 |  0.781 | Tested with PyTorch==1.5.0 |
+| D2 | [character-face-efficientdet-c2.pth](https://github.com/kosuke1701/pretrained-efficientdet-character-head/releases/download/0.0/character-face-efficientdet-c2.pth) | 0.767 | 0.812 | Tested with Pytorch==1.5.0 |
